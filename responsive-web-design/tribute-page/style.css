@@ -1,0 +1,51 @@
+/**** Global ****/
+html,
+body {
+  margin: 0;
+  background: #9dcbba;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 3rem;
+  color: #454545;
+}
+
+/**** Content ****/
+main {
+  margin: 30px 8px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+header {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 30px;
+  background: #fefefe;
+}
+
+#image {
+  max-width: 100%;
+}
+
+p:not(.description) {
+  max-width: 1200px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+/*** Responsiveness ***/
+@media (max-width: 600px) {
+  #image {
+    max-width: 300px;
+  }
+}
